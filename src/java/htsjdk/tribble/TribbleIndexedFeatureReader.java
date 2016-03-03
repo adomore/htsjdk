@@ -205,6 +205,11 @@ public class TribbleIndexedFeatureReader<T extends Feature, SOURCE> extends Abst
         return index != null;
     }
 
+
+    public Index getIndex() {
+        return index;
+    }
+
     /**
      * read the header from the file
      *
