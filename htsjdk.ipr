@@ -36,9 +36,7 @@
       </profile>
     </annotationProcessing>
   </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright />
-  </component>
+  <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
@@ -46,82 +44,22 @@
     <option name="GENERATE_NO_WARNINGS" value="true" />
     <option name="DEPRECATION" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="IdProvider" IDEtalkID="AB79780EFD042F143DD27CA1347286D1" />
   <component name="InspectionProjectProfileManager">
-    <profiles>
-      <profile version="1.0" is_locked="false">
-        <option name="myName" value="Project Default" />
-        <option name="myLocal" value="false" />
-        <inspection_tool class="Convert2Diamond" enabled="false" level="WARNING" enabled_by_default="false" />
-        <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
-        <inspection_tool class="JavaDoc" enabled="false" level="WARNING" enabled_by_default="false">
-          <option name="TOP_LEVEL_CLASS_OPTIONS">
-            <value>
-              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
-              <option name="REQUIRED_TAGS" value="" />
-            </value>
-          </option>
-          <option name="INNER_CLASS_OPTIONS">
-            <value>
-              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
-              <option name="REQUIRED_TAGS" value="" />
-            </value>
-          </option>
-          <option name="METHOD_OPTIONS">
-            <value>
-              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
-              <option name="REQUIRED_TAGS" value="@return@param@throws or @exception" />
-            </value>
-          </option>
-          <option name="FIELD_OPTIONS">
-            <value>
-              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
-              <option name="REQUIRED_TAGS" value="" />
-            </value>
-          </option>
-          <option name="IGNORE_DEPRECATED" value="false" />
-          <option name="IGNORE_JAVADOC_PERIOD" value="true" />
-          <option name="IGNORE_DUPLICATED_THROWS" value="false" />
-          <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-          <option name="myAdditionalJavadocTags" value="" />
-        </inspection_tool>
-        <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
-          <option name="REPORT_VARIABLES" value="true" />
-          <option name="REPORT_PARAMETERS" value="true" />
-          <option name="REPORT_CATCH_PARAMETERS" value="true" />
-          <option name="REPORT_FOREACH_PARAMETERS" value="true" />
-        </inspection_tool>
-        <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-        <inspection_tool class="UnusedDeclaration" enabled="false" level="WARNING" enabled_by_default="false">
-          <option name="ADD_MAINS_TO_ENTRIES" value="true" />
-          <option name="ADD_APPLET_TO_ENTRIES" value="true" />
-          <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
-          <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
-        </inspection_tool>
-        <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
-          <option name="groups">
-            <value>
-              <list size="1">
-                <item index="0" class="java.lang.String" itemvalue="unix" />
-              </list>
-            </value>
-          </option>
-        </inspection_tool>
-      </profile>
-    </profiles>
-    <option name="PROJECT_PROFILE" value="Project Default" />
-    <option name="USE_PROJECT_PROFILE" value="true" />
-    <version value="1.0" />
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="SERVER PROBLEM" />
-      <item index="1" class="java.lang.String" itemvalue="WEAK WARNING" />
-      <item index="2" class="java.lang.String" itemvalue="INFO" />
-      <item index="3" class="java.lang.String" itemvalue="TYPO" />
-      <item index="4" class="java.lang.String" itemvalue="WARNING" />
-      <item index="5" class="java.lang.String" itemvalue="ERROR" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="GITIGNORE.UNUSED_ENTRY" />
+      <item index="1" class="java.lang.String" itemvalue="SERVER PROBLEM" />
+      <item index="2" class="java.lang.String" itemvalue="WEAK WARNING" />
+      <item index="3" class="java.lang.String" itemvalue="INFO" />
+      <item index="4" class="java.lang.String" itemvalue="TYPO" />
+      <item index="5" class="java.lang.String" itemvalue="WARNING" />
+      <item index="6" class="java.lang.String" itemvalue="ERROR" />
     </list>
   </component>
   <component name="JavadocGenerationManager">
@@ -267,10 +205,12 @@
       <value>
         <option name="GENERATE_FINAL_LOCALS" value="true" />
         <option name="GENERATE_FINAL_PARAMETERS" value="true" />
-        <option name="USE_FQ_CLASS_NAMES_IN_JAVADOC" value="false" />
         <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
         <option name="RIGHT_MARGIN" value="140" />
         <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
+        <JavaCodeStyleSettings>
+          <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+        </JavaCodeStyleSettings>
         <XML>
           <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
         </XML>
@@ -344,9 +284,7 @@
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
-
